@@ -1,0 +1,26 @@
+.IDINPLAB
+{
+    color: white;
+    font-weight: bold;
+}
+
+.s9BootConD1Div1 input
+{
+    display: block;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+    transition: all 0.5s;
+    color: white;
+    background-color: #060606;
+}
+
+.s9BootConD1Div1 input:hover
+{
+    background-color: #FFC702;
+}

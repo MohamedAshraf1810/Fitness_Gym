@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mycar
+{
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 15, 14, 0.7), rgba(32, 32, 32, 0.7)), url("../images/event_1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption
+{
+    padding-bottom: 5rem;
+}
+
+.carousel-caption p 
+{
+    font-size: 15px;
+    line-height: 1px;
+}
+
+.ClassSec2
+{
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bm
+{
+    height: 400px;
+    width: 507px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bmbmb1
+{
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(21, 21, 21, 0.5)), url("../images/event_2.jpg");
+    position: relative;
+}
+
+.bmbmb2
+{  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(21, 21, 21, 0.5)), url("../images/event_1.jpg");
+    position: relative;
+}
+.bmbmb3
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(21, 21, 21, 0.5)), url("../images/pfeatured_03.jpg");
+    position: relative;
+}
+
+
+.bmbmb1bm1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.wo
+{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.carda
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+    background-color: black;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+.carda:hover
+{
+    color: #FFC702;
+}
+
+.card
+{
+    margin-bottom: 50px;
+}
+.card-text
+{
+    text-align: left;
+    line-height: 35px;
+    color: black;
+}
+
+#preloader
+{
+    background: #fff url(../images/simple-preloader-gif.gif) no-repeat center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 3000;    
+}
